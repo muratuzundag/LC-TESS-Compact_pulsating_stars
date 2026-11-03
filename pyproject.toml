@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lc-tess-compact"
+version = "0.1.0"
+description = "LC TESS Compact pulsating stars: SPOC photometry, periodograms and optional localization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Murat Uzundag"}]
+dependencies = ["lightkurve>=2.5,<3", "numpy>=1.24", "matplotlib>=3.7", "astropy>=5", "astroquery>=0.4.7"]
+
+[project.optional-dependencies]
+localize = ["tess-localize"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+lc-tess = "lc_tess.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

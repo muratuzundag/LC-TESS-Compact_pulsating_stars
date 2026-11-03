@@ -1,0 +1,27 @@
+LC-TESS-Compact-Pulsating-Stars — complete upload contents
+
+.github/workflows/tests.yml
+.gitignore
+CHANGELOG.md
+CITATION.cff
+CONTRIBUTING.md
+FILE_LIST.txt
+LICENSE
+README.md
+THIRD_PARTY.md
+UPLOAD_TO_GITHUB.md
+VALIDATION.md
+assets/LC_TESS_banner.png
+assets/LC_TESS_banner.svg
+assets/LC_TESS_emblem.png
+assets/README.md
+examples/commands.sh
+examples/quickstart.ipynb
+pyproject.toml
+src/lc_tess/__init__.py
+src/lc_tess/__main__.py
+src/lc_tess/cli.py
+src/lc_tess/core.py
+src/lc_tess/workflow.py
+tests/test_core.py
+tests/test_lightkurve_optional.py

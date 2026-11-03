@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the exact software release used and the relevant upstream packages and data products."
+title: "LC TESS Compact pulsating stars"
+type: software
+version: 0.1.0
+authors:
+  - family-names: "Uzundag"
+    given-names: "Murat"
+license: MIT
