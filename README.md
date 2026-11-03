@@ -4,9 +4,9 @@
 
 A Python workflow for retrieving TESS SPOC light curves, computing Lomb–Scargle amplitude spectra, and optionally localizing selected variability in target-pixel data.
 
-Designed for compact-star asteroseismology, including studies of pulsating white dwarfs and hot subdwarfs. Users provide a TIC identifier or sky coordinates; the workflow selects available short-cadence data and produces reproducible data products and diagnostic figures.
+Designed for compact-star asteroseismology, including studies of pulsating white dwarfs and hot subdwarfs. Users provide a TIC identifier or sky coordinates; the workflow selects available (ultra)short-cadence data and produces reproducible data products and diagnostic figures.
 
-> **Release status:** Version 0.1.0 is a release candidate. Source syntax and dependency-light tests have been checked. Live MAST downloads, a full runtime installation, and actual TESS-Localize execution have **not** been validated in the generation environment. Complete [VALIDATION.md](VALIDATION.md) before advertising a stable scientific release.
+> **Release status:** Version 0.1.0 is a first release. Live MAST downloads, a full runtime installation, and actual TESS-Localize execution have **not** been validated in the generation environment. Complete [VALIDATION.md](VALIDATION.md) before advertising a stable scientific release.
 
 | Name | Value |
 |---|---|
