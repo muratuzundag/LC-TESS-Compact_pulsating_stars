@@ -346,7 +346,7 @@ No live MAST/TIC/Gaia or TESS-Localize run is claimed. Complete [VALIDATION.md](
 
 The original research notebooks informed the public workflow; private paths, ground-based reduction cells, lists, notebook outputs and forced process exits were excluded.
 
-## Citation, license, and artwork
+## Citation and license
 
 Cite the exact release used; [CITATION.cff](CITATION.cff) supplies metadata without inventing a DOI. Follow the citation/acknowledgment requirements of Lightkurve, TESS/SPOC, MAST, Astropy, Astroquery and Gaia when applicable. Cite Higgins & Bell (2023) if TESS-Localize contributes to the analysis.
 
